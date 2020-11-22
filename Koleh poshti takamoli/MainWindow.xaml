@@ -1,0 +1,25 @@
+﻿<Window x:Class="Koleh_poshti_takamoli.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Koleh_poshti_takamoli"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="457" Width="413">
+    <Grid>
+        <Label Content="جمعیت اولیه" HorizontalAlignment="Left" Margin="300,47,0,0" VerticalAlignment="Top"/>
+        <Label Content="تعداد والدین" HorizontalAlignment="Left" Margin="300,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="تعداد تکرار نسل" HorizontalAlignment="Left" Margin="300,109,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="217,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <TextBox Name="numOfPar" HorizontalAlignment="Left" Height="22" Margin="217,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <TextBox Name="numOfGen" HorizontalAlignment="Left" Height="22" Margin="217,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <TextBox Name="listOfInd" ScrollViewer.CanContentScroll="True" AcceptsReturn="True" HorizontalAlignment="Left" Height="300" Margin="22,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" Text="// vazn 1, arzesh&#xA;// vazn 2, arzesh&#xA;..."/>
+        <Label Content="جمعیت اولیه" HorizontalAlignment="Left" Margin="300,47,0,0" VerticalAlignment="Top"/>
+        <Label Content="ظرفیت کوله پشتی" HorizontalAlignment="Left" Margin="108,47,0,0" VerticalAlignment="Top" Width="104"/>
+        <TextBox Name="numOfPub" HorizontalAlignment="Left" Height="22" Margin="217,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <TextBox Name="maxWeight" HorizontalAlignment="Left" Height="22" Margin="22,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <Label Content="اجناس و وزون" HorizontalAlignment="Left" Margin="108,78,0,0" VerticalAlignment="Top" Width="83"/>
+        <Button Content="اجرا" HorizontalAlignment="Left" Margin="312,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
